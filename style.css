@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.baner {
+    background-image: url(img/header-bg.jpg.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* position: fixed;
+    transition: all 0.5s;
+    z-index: 997;
+    background-color: rgba(20, 2, 0, 0.8);
+    opacity: 0.6; */
+}
+
+.logo {
+    margin: 40px 0px 0px 160px;
+}
+
+.nav-links {
+    list-style: none;
+    padding-right: 200px;
+}
+
+.nav-links li {
+    display: inline;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.nav-link {
+    list-style: none;
+    padding-left: 900px;
+    font-size: 12px;
+}
+
+.nav-link li {
+    display: inline;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.energy {
+    color: white;
+    margin-left: 100px;
+    padding: 45px 0px 20px 0px;
+}
+
+.day {
+    font-size: 60px;
+    color: white;
+    margin-left: 100px;
+}
+
+.buy {
+    width: 130px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 0px;
+}
+
+.coffee-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.video-1 {
+    margin: 75px 0px 0px 180px;
+}
+
+.text {
+    color: #b68834;
+    font-weight: lighter;
+}
+
+.text-2 {
+    padding: 15px 0px 15px 0px;
+}
+
+.p {
+    opacity: 0.6;
+}
+
+.sign {
+    margin-top: 30px;
+}
+
+.banner {
+    background-image: url(img/menu-bg.jpg.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    
+}
+
+.const{
+    text-align: center;
+    padding-top: 80px;
+}
+.const-1{
+    text-align: center;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1{
+    color: #b68834;
+}
+
+.c2{
+    opacity: 0.6;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
