@@ -2,7 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
-
+.sticky{
+    position: sticky;
+    top: 0px;
+}
 .baner {
     background-image: url(img/header-bg.jpg.webp);
     background-size: cover;
@@ -16,11 +19,8 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* position: fixed;
-    transition: all 0.5s;
-    z-index: 997;
-    background-color: rgba(20, 2, 0, 0.8);
-    opacity: 0.6; */
+    position: sticky;
+    top: 0px;
 }
 
 .logo {
@@ -110,7 +110,11 @@ a {
     height: 100vh;
     width: 100%;
     background-position: center;
-    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 40px 100px;
+    grid-template-rows: auto auto auto;
+    /* align-items: center; */
 }
 
 .const{
@@ -123,20 +127,186 @@ a {
     padding: 10px;
 }
 
-.cont{
+.coffies{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
-.c1{
+.rs{
     color: #b68834;
 }
 
-.c2{
-    opacity: 0.6;
+.container-1{
+    background-color: white;
+    padding: 25px;
+    margin: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
 }
 
-.container-2{
+.pokemon-2{
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 0px 150px 20px 150px;
+    align-items: center;
 }
+
+.cpl{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 140px;
+}
+
+.pokemon-1{
+    align-items: center;
+}
+
+.cpl1{
+    margin-top: -130px;
+}
+
+.toss{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    margin-top: 120px;
+}
+.toss-1{
+    text-align: center;
+    opacity: 0.6;
+    padding: 10px;
+    color: white;
+}
+
+.pokemongo{
+    background-color: #b68834;
+}
+
+.loremI {
+    display: flex;
+    color: yellow;
+}
+
+.lorem-2{
+    display: flex;
+    margin: 20px 0px;
+    gap: 15px;
+}
+
+.white1{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.white{
+    color: white;
+}
+
+/* .loremI{
+    display: flex;
+    
+} */
+
+.lorem{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+.counter{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.counter-2{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.counter-3{
+    color: #ffffff;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 140px 10px 140px;
+}
+
+.flex-2{
+    margin-left: 170px;
+}
+.btn-1{
+    border-radius: 40px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.flex-1{
+    display: flex;
+}
+
+.flex-3{
+    margin-left: 405px;
+}
+
+.flez{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.flez-1{
+   margin: 10px 0px 0px 170px;
+}
+.flez-2{
+    padding: 10px 0px 0px 260px;
+}
+
+.flezz{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flezz-1{
+   margin: 10px 0px 0px 110px;
+   opacity: 0.6;
+   font-weight: lighter;
+}
+.flezz-2{
+    padding: 10px 180px 0px 75px;
+    opacity: 0.6;
+   font-weight: lighter;
+}
+
+.flezzz{
+    display: flex;
+}
+
+.flezzz-1{
+    margin: 10px 0px 0px 170px;
+ }
+ .flezzz-2{
+     padding: 10px 0px 0px 470px;
+ }
+
+ .footer{
+    background-image: url(img/footer-bg.jpg.webp);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+ }
+
+
+
+
